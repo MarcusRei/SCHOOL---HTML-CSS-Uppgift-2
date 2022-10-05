@@ -17,7 +17,6 @@
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
-
     background: rgba(255, 255, 255, 0.1);
     color: var.$color-secondary;
     height: 50px;
@@ -36,6 +35,8 @@
 
     }
   }
+
+  //Allt ovanför är löst (tror jag)
   
   .menu > li {
     margin: 0 1rem;
@@ -120,7 +121,10 @@
   /* @include mixins.desktop{
 
   } */
+
   //koden här är desktop först
+
+
   @media (max-width: 768px) {
    
     .menu {
