@@ -1,35 +1,35 @@
 @use "variables" as var;
 
 @mixin profile-image {
-    border-radius: 50%;
-    width: 70%;
-    box-shadow: -1px 6px 28px 24px rgba(173,168,168,0.57);
+  border-radius: 50%;
+  width: 70%;
+  box-shadow: -1px 6px 28px 24px rgba(173, 168, 168, 0.57);
 }
 
 @mixin background-image {
-    background-image: url(/assets/negative-space-black-forest-dawn.jpg);
-    background-size: cover;
-    background-position: 50%;
+  background-image: url(/assets/negative-space-black-forest-dawn.jpg);
+  background-size: cover;
+  background-position: 50%;
 }
 
 @mixin contact-item {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-    text-align: left;
-    gap: 0.8em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-align: left;
+  gap: 0.8em;
 }
 
 @mixin link-styling {
-    text-decoration: none;
-    color: var.$color-secondary;
+  text-decoration: none;
+  color: var.$color-secondary;
 }
 
 //Media Queries
 
-@mixin desktop{
-    @media screen and (min-width: 768px){
-        @content;
-    }
+@mixin desktop {
+  @media screen and (min-width: 768px) {
+    @content;
+  }
 }

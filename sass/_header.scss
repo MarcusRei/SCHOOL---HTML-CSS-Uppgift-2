@@ -1,162 +1,147 @@
 @use "variables" as var;
 @use "mixins";
 
-  
-  * {
-    box-sizing: border-box;
-  }
+header {
+  position: relative;
+}
 
-  header {
-    position: relative;
+.top-nav {
+  position: absolute;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  background: rgba(255, 255, 255, 0.1);
+  color: var.$color-secondary;
+  height: 50px;
+  padding: 1em;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  @include mixins.desktop {
+    padding-right: 2em;
   }
-  
-  .top-nav {
-    position: absolute;
-    width: 100vw;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-    background: rgba(255, 255, 255, 0.1);
+}
+
+//Allt ovanför är löst (tror jag)
+
+.menu > li {
+  margin: 0 1rem;
+  overflow: hidden;
+
+  a {
+    text-decoration: none;
     color: var.$color-secondary;
-    height: 50px;
-    padding: 1em;
-  }
-  
-  .menu {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-
-    @include mixins.desktop{
-        padding-right: 2em;
-
-    }
+    font-size: 1.5em;
   }
 
-  //Allt ovanför är löst (tror jag)
-  
-  .menu > li {
-    margin: 0 1rem;
-    overflow: hidden;
-
-    
-    a {
-        text-decoration: none;
-        color: var.$color-secondary;
-        font-size: 1.5em;
-    }
-
-    a:hover {
-        border-bottom: 2px solid;
-        border-color: var.$color-secondary;
-    }
+  a:hover {
+    border-bottom: 2px solid;
+    border-color: var.$color-secondary;
   }
+}
 
+.menu-button-container {
+  display: flex;
+  height: 100%;
+  width: 30px;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-  .menu-button-container {
-    display: flex;
-    height: 100%;
-    width: 30px;
-    cursor: pointer;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    @include mixins.desktop{
-        display:none;
-    }
-  }
-  
-  #menu-toggle {
+  @include mixins.desktop {
     display: none;
   }
-  
-  .menu-button,
-  .menu-button::before,
-  .menu-button::after {
+}
 
-    @include mixins.desktop{}
-    display: block;
-    background-color: #fff;
+#menu-toggle {
+  display: none;
+}
+
+//hamburger-symbol//
+
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+  @include mixins.desktop {
+  }
+  display: block;
+  background-color: #fff;
+  position: absolute;
+  height: 4px;
+  width: 30px;
+  transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  border-radius: 2px;
+}
+
+.menu-button::before {
+  content: "";
+  margin-top: -8px;
+}
+
+.menu-button::after {
+  content: "";
+  margin-top: 8px;
+}
+
+//cross animation
+
+#menu-toggle:checked + .menu-button-container .menu-button::before {
+  margin-top: 0px;
+  transform: rotate(45deg);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button {
+  background: var.$color-transparent;
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::after {
+  margin-top: 0px;
+  transform: rotate(-45deg);
+}
+
+//Media Queries
+
+//koden här är desktop först
+
+@media (max-width: 768px) {
+  .menu {
     position: absolute;
-    height: 4px;
-    width: 30px;
-    transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
-    border-radius: 2px;
+    top: 0;
+    margin-top: 50px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
   }
-  
-  //hamburger-symbol//
-
-  .menu-button::before {
-    content: '';
-    margin-top: -8px;
+  #menu-toggle ~ .menu li {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
   }
-  
-  .menu-button::after {
-    content: '';
-    margin-top: 8px;
+  #menu-toggle:checked ~ .menu li {
+    height: 2.5em;
+    padding: 0.5em;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
   }
-
-  //cross animation
-  
-  #menu-toggle:checked + .menu-button-container .menu-button::before {
-    margin-top: 0px;
-    transform: rotate(45deg);
+  .menu > li {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0.5em 0;
+    width: 100%;
+    color: white;
+    background-color: var.$color-transparent;
   }
-  
-  #menu-toggle:checked + .menu-button-container .menu-button {
-    background: var.$color-transparent;
-  }
-  
-  #menu-toggle:checked + .menu-button-container .menu-button::after {
-    margin-top: 0px;
-    transform: rotate(-45deg);
-  }
-
-  //Media Queries
-
-  /* @include mixins.desktop{
-
-  } */
-
-  //koden här är desktop först
-
-
-  @media (max-width: 768px) {
-   
-    .menu {
-      position: absolute;
-      top: 0;
-      margin-top: 50px;
-      left: 0;
-      flex-direction: column;
-      width: 100%;
-      justify-content: center;
-      align-items: center;
-    }
-    #menu-toggle ~ .menu li {
-      height: 0;
-      margin: 0;
-      padding: 0;
-      border: 0;
-      transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
-    }
-    #menu-toggle:checked ~ .menu li {
-
-      height: 2.5em;
-      padding: 0.5em;
-      transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
-    }
-    .menu > li {
-      display: flex;
-      justify-content: center;
-      margin: 0;
-      padding: 0.5em 0;
-      width: 100%;
-      color: white;
-      background-color: var.$color-transparent;
-    }
-  }
+}
