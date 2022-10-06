@@ -48,6 +48,7 @@ header {
   }
 }
 
+//klar
 .menu-button-container {
   display: flex;
   height: 100%;
@@ -92,13 +93,13 @@ header {
   margin-top: 8px;
 }
 
-//cross animation
-
+//kryss-symbol
 #menu-toggle:checked + .menu-button-container .menu-button::before {
   margin-top: 0px;
   transform: rotate(45deg);
 }
 
+//mitten-streck i hamburgare
 #menu-toggle:checked + .menu-button-container .menu-button {
   background: var.$color-transparent;
 }
@@ -110,10 +111,13 @@ header {
 
 //Media Queries
 
-//koden här är desktop först
+//DESKTOP FIRST
 
 @media (max-width: 768px) {
   .menu {
+    @include mixins.desktop {
+    }
+
     position: absolute;
     top: 0;
     margin-top: 50px;
