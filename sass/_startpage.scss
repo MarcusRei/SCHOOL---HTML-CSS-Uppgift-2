@@ -1,6 +1,5 @@
 @use "mixins";
 @use "variables" as var;
-@use "icons";
 
 main {
   display: flex;
@@ -15,17 +14,24 @@ main {
   background-position: center;
   color: #ffffff;
 
+figure {
+  position: relative;
+
   .arrow {
-    position: relative;
-    top: 5em;
+    position: absolute;
+    top: 6em;
+    
 
     @include mixins.desktop {
-      top: 6em;
+      top: 9em;
     }
 
-    @include icons.icon-styling;
+    @include mixins.icon-styling;
     color: var.$color-secondary;
   }
+}
+
+  
 }
 
 .main-container {

@@ -21,6 +21,13 @@
   gap: 0.8em;
 }
 
+// Styling
+@mixin icon-styling {
+  font-size: 1.5em;
+  text-decoration: none;
+  transform: rotate(90deg);
+}
+
 @mixin link-styling {
   text-decoration: none;
   color: var.$color-secondary;
@@ -33,3 +40,5 @@
     @content;
   }
 }
+
+

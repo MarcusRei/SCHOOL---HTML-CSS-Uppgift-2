@@ -14,6 +14,7 @@ header {
   color: var.$color-secondary;
   height: 50px;
   padding: 1em;
+  box-sizing: border-box;
 
   @include mixins.desktop {
     align-items: center;
@@ -35,8 +36,6 @@ header {
   right: 0;
   top: 0;
   
-  
-
   @include mixins.desktop {
     padding-right: 2em;
     flex-direction: row;

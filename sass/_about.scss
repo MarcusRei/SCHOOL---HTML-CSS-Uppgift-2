@@ -1,6 +1,5 @@
 @use "mixins";
 @use "variables" as var;
-@use "icons";
 
 #about{
     display: flex;
@@ -72,7 +71,7 @@
     .arrow {
         color: var.$color-primary;
         
-        @include icons.icon-styling;
+        @include mixins.icon-styling;
     
     }
 }
