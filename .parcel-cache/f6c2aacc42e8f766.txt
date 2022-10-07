@@ -42,7 +42,7 @@
 98D:\skola\html_css\uppgift-2\uppgift-2\node_modules\caniuse-lite\data\features\css-rebeccapurple.js133095104157210336 0
 68D:\skola\html_css\uppgift-2\uppgift-2\node_modules\readdirp\index.js133095104142349941 0
 69D:\skola\html_css\uppgift-2\uppgift-2\node_modules\anymatch\README.md133095104144115222 0
-42D:\skola\html_css\uppgift-2\uppgift-2\dist133096035168685646 1
+42D:\skola\html_css\uppgift-2\uppgift-2\dist133096042836051702 1
 75D:\skola\html_css\uppgift-2\uppgift-2\node_modules\abortcontroller-polyfill133095104148383810 1
 98D:\skola\html_css\uppgift-2\uppgift-2\node_modules\@parcel\transformer-sass\lib\SassTransformer.js133095104142629191 0
 57D:\skola\html_css\uppgift-2\uppgift-2\node_modules\@types133095104127668965 1
@@ -112,7 +112,7 @@
 76D:\skola\html_css\uppgift-2\uppgift-2\node_modules\csso\lib\replace\index.js133095104150298683 0
 86D:\skola\html_css\uppgift-2\uppgift-2\node_modules\@parcel\watcher\prebuilds\linux-x64133095104152732183 1
 60D:\skola\html_css\uppgift-2\uppgift-2\node_modules\@trysound133095104127668965 1
-88D:\skola\html_css\uppgift-2\uppgift-2\dist\negative-space-black-forest-dawn.1f96b6d6.jpg133096035168685646 0
+88D:\skola\html_css\uppgift-2\uppgift-2\dist\negative-space-black-forest-dawn.1f96b6d6.jpg133096042836031770 0
 85D:\skola\html_css\uppgift-2\uppgift-2\node_modules\terser\lib\compress\reduce-vars.js133095104152063972 0
 81D:\skola\html_css\uppgift-2\uppgift-2\node_modules\svgo\plugins\removeComments.js133095104151196291 0
 94D:\skola\html_css\uppgift-2\uppgift-2\node_modules\caniuse-lite\data\features\selection-api.js133095104160381726 0
@@ -1416,7 +1416,7 @@
 68D:\skola\html_css\uppgift-2\uppgift-2\node_modules\caniuse-lite\data133095104157918310 1
 100D:\skola\html_css\uppgift-2\uppgift-2\node_modules\caniuse-lite\data\features\css-descendant-gtgt.js133095104156621786 0
 121D:\skola\html_css\uppgift-2\uppgift-2\node_modules\@parcel\node-resolver-core\test\fixture\packages\source-alias-glob\src133095104154288026 1
-65D:\skola\html_css\uppgift-2\uppgift-2\dist\index.8d8029cf.css.map133096035167152384 0
+65D:\skola\html_css\uppgift-2\uppgift-2\dist\index.8d8029cf.css.map133096042832238311 0
 68D:\skola\html_css\uppgift-2\uppgift-2\node_modules\sass\types\logger133095104154647059 1
 98D:\skola\html_css\uppgift-2\uppgift-2\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\lmdb.h133095104155813944 0
 82D:\skola\html_css\uppgift-2\uppgift-2\node_modules\caniuse-lite\data\regions\EG.js133095104157788656 0
@@ -1794,7 +1794,7 @@
 69D:\skola\html_css\uppgift-2\uppgift-2\node_modules\lmdb\src\windows.c133095104154278049 0
 112D:\skola\html_css\uppgift-2\uppgift-2\node_modules\@parcel\core\test\fixtures\invalid-target-source-not-file\src133095104153729516 1
 75D:\skola\html_css\uppgift-2\uppgift-2\node_modules\node-addon-api\nothing.c133095104141023601 0
-64D:\skola\html_css\uppgift-2\uppgift-2\dist\uppgift-2.3464ddca.js133096035165337263 0
+64D:\skola\html_css\uppgift-2\uppgift-2\dist\uppgift-2.3464ddca.js133096042833534859 0
 71D:\skola\html_css\uppgift-2\uppgift-2\node_modules\msgpackr-extract\src133095104144883170 1
 81D:\skola\html_css\uppgift-2\uppgift-2\node_modules\@parcel\runtime-service-worker133095104144244877 1
 82D:\skola\html_css\uppgift-2\uppgift-2\node_modules\caniuse-lite\data\regions\CX.js133095104157509403 0
@@ -2189,7 +2189,7 @@
 80D:\skola\html_css\uppgift-2\uppgift-2\node_modules\dom-serializer\lib\index.d.ts133095104148692977 0
 99D:\skola\html_css\uppgift-2\uppgift-2\node_modules\htmlnano\lib\modules\normalizeAttributeValues.js133095104149311329 0
 118D:\skola\html_css\uppgift-2\uppgift-2\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\@scope\pkg\foo133095104146060018 1
-61D:\skola\html_css\uppgift-2\uppgift-2\dist\index.8d8029cf.css133096035167102600 0
+61D:\skola\html_css\uppgift-2\uppgift-2\dist\index.8d8029cf.css133096042832128600 0
 96D:\skola\html_css\uppgift-2\uppgift-2\node_modules\htmlnano\lib\modules\removeAttributeQuotes.js133095104149440981 0
 69D:\skola\html_css\uppgift-2\uppgift-2\node_modules\@parcel\source-map133095104154706907 1
 69D:\skola\html_css\uppgift-2\uppgift-2\node_modules\color-name\LICENSE133095104143237567 0
@@ -4091,7 +4091,7 @@
 72D:\skola\html_css\uppgift-2\uppgift-2\node_modules\@parcel\css\README.md133095104143277462 0
 76D:\skola\html_css\uppgift-2\uppgift-2\node_modules\@parcel\core\package.json133095104156861142 0
 68D:\skola\html_css\uppgift-2\uppgift-2\node_modules\@parcel\core\test133095104156721516 1
-72D:\skola\html_css\uppgift-2\uppgift-2\dist\Sebastian_Square.206c669e.png133096035167252122 0
+72D:\skola\html_css\uppgift-2\uppgift-2\dist\Sebastian_Square.206c669e.png133096042833684467 0
 88D:\skola\html_css\uppgift-2\uppgift-2\node_modules\@parcel\core\test\Environment.test.js133095104153420346 0
 77D:\skola\html_css\uppgift-2\uppgift-2\node_modules\@parcel\core\test\fixtures133095104157110472 1
 89D:\skola\html_css\uppgift-2\uppgift-2\node_modules\@parcel\core\test\ParcelConfig.test.js133095104155474847 0
@@ -4355,11 +4355,11 @@
 64D:\skola\html_css\uppgift-2\uppgift-2\node_modules\.bin\svgo.ps1133095104162775322 0
 62D:\skola\html_css\uppgift-2\uppgift-2\node_modules\.bin\terser133095104162775322 0
 66D:\skola\html_css\uppgift-2\uppgift-2\node_modules\.bin\terser.cmd133095104162785301 0
-72D:\skola\html_css\uppgift-2\uppgift-2\dist\Alexandra_Square.a526e90a.png133096035167351852 0
-53D:\skola\html_css\uppgift-2\uppgift-2\dist\index.html133096035167351852 0
-71D:\skola\html_css\uppgift-2\uppgift-2\dist\NoPerson_Square.f348d49f.png133096035165287378 0
-68D:\skola\html_css\uppgift-2\uppgift-2\dist\Rakib_Square.2b16126c.png133096035165446952 0
-68D:\skola\html_css\uppgift-2\uppgift-2\dist\uppgift-2.3464ddca.js.map133096035165426999 0
+72D:\skola\html_css\uppgift-2\uppgift-2\dist\Alexandra_Square.a526e90a.png133096042833744279 0
+53D:\skola\html_css\uppgift-2\uppgift-2\dist\index.html133096042832128600 0
+71D:\skola\html_css\uppgift-2\uppgift-2\dist\NoPerson_Square.f348d49f.png133096042832617296 0
+68D:\skola\html_css\uppgift-2\uppgift-2\dist\Rakib_Square.2b16126c.png133096042832707052 0
+68D:\skola\html_css\uppgift-2\uppgift-2\dist\uppgift-2.3464ddca.js.map133096042833594687 0
 61D:\skola\html_css\uppgift-2\uppgift-2\Description\Contact.png132447168620000000 0
 64D:\skola\html_css\uppgift-2\uppgift-2\Description\Start_Page.png132447167980000000 0
 71D:\skola\html_css\uppgift-2\uppgift-2\Description\Start_Page_Mobile.png132447171940000000 0
